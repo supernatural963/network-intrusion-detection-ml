@@ -37,4 +37,22 @@ The project is decoupled into clean, modular Python components following product
 ├── .gitignore                  # Production Git ignore rules
 ├── requirements.txt            # Reproducible dependencies
 ├── verify_env.py               # Pre-flight environment check
-└── README.md                   # System documentation
+└── README.md                   # System documentationgit add README.md
+
+
+## 🚀 Quickstart & Reproduction
+
+```bash
+git clone [https://github.com/supernatural963/network-intrusion-detection-ml.git](https://github.com/supernatural963/network-intrusion-detection-ml.git)
+cd network-intrusion-detection-ml
+python -m venv .venv
+.venv\Scripts\activate
+pip install -r requirements.txt
+streamlit run src/app.py
+
+📊 Key Results & Diagnostics
+Comprehensive Evaluation: Metrics and classification reports are exported to models/metrics_evaluation.txt.
+
+Explainability: Top 20 network features influencing model decisions are visualized in models/feature_importances_top20.png.
+
+Classification Performance: Detailed multi-class / binary misclassification analysis available via models/confusion_matrix.png.
