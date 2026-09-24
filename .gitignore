@@ -1,0 +1,13 @@
+# Python cache & virtual environment
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Data & Models
+data/
+*.zip
+*.pkl
+
+# IDE settings
+.vscode/

@@ -1,0 +1,18 @@
+=== Network AI Project: Performance Evaluation Report ===
+
+Overall Accuracy: 0.7858
+
+Classification Report:
+              precision    recall  f1-score   support
+
+      attack     0.8693    0.8624    0.8659     32068
+      benign     0.4611    0.4758    0.4683      7932
+
+    accuracy                         0.7858     40000
+   macro avg     0.6652    0.6691    0.6671     40000
+weighted avg     0.7884    0.7858    0.7870     40000
+
+
+Confusion Matrix (Labels: attack, benign):
+[[27657  4411]
+ [ 4158  3774]]
